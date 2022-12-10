@@ -1,0 +1,41 @@
+Product Comparison
+
+This project aims to compare the prices of a product on two different e-commerce websites, Amazon and Flipkart, based on the product name. The data sets used for training and testing the model are amz_com-ecommerce_sample.csv and flipkart_com-ecommerce_sample.csv.
+
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+You need to have Python 3.x and the following libraries installed on your system:
+
+spacy
+scipy
+pandas
+You can install these libraries using pip:
+
+
+pip install spacy scipy pandas
+You also need to download the en_core_web_lg model for spaCy:
+
+
+python -m spacy download en_core_web_lg
+Installing
+Clone the repository and navigate to the project directory:
+
+
+git clone https://github.com/your-username/Product-Comparison.git
+cd Product-Comparison
+Usage
+To run the project, execute the following command in the project directory:
+
+
+python product_comparison.py
+When prompted, enter the product name that you want to compare the prices of on the two websites.
+
+Authors
+Hari Babu A - Initial work - Haria_01
+
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
